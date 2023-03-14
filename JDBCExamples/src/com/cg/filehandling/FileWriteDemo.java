@@ -1,0 +1,35 @@
+package com.cg.filehandling;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class FileWriteDemo {
+
+	public static void main(String[] args) {
+		String data = "This is the data in the output file";
+		// String[] dataWords = data.split(" ");
+		File myObj = null;
+		try {
+			myObj = new File("C:\\Users\\arjun\\OneDrive\\Desktop\\handling\\filename.txt");
+			if (myObj.createNewFile()) {
+				System.out.println("File created: " + myObj.getName());
+			} else {
+				System.out.println("File already exists.");
+			}
+		} catch (IOException e) {
+			System.out.println("An error occurred.");
+			e.printStackTrace();
+		}
+		try {
+			FileWriter output = new FileWriter(myObj);
+			output.write(data);
+			System.out.println("Data is inserted to the file" + myObj.getName());
+			output.close();
+		} catch (Exception e) {
+			e.getStackTrace();
+		}
+
+	}
+
+}

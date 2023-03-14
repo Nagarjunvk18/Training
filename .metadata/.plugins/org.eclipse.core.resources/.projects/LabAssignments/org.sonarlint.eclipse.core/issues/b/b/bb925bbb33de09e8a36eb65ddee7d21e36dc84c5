@@ -1,0 +1,8 @@
+
+i	java:S106"9Replace this use of System.out or System.err by a logger.(›ü›üøÿÿÿÿHÙRMAJORZ
+CODE_SMELL
+c	java:S106"9Replace this use of System.out or System.err by a logger.(³ðÐ+HÚRMAJORZ
+CODE_SMELL
+O
+java:S1128"Remove this duplicated import.(ÒÜÅ¸úÿÿÿÿHÛRMINORZ
+CODE_SMELL

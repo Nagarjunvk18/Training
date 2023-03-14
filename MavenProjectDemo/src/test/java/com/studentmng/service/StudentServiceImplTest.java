@@ -1,0 +1,49 @@
+package com.studentmng.service;
+
+import java.util.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import com.studentmng.model.Student;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
+
+public class StudentServiceImplTest {
+	private StudentService service;
+
+	@Before
+	public void setUp() {
+		service = new StudentServiceImpl();
+	}
+	@Test
+	public void testGetAllStudents() {
+		List<Student> students = service.getAllStudents();
+		assertEquals(2, students.size());
+	}
+	@Test
+	public void testGetStudent() {
+		Student student = service.getStudent(0);
+		assertEquals("Virat Kohli", student.getName());
+	}
+
+	@Test
+	public void testUpdateStudent() {
+		Student student = service.getStudent(0);
+		student.setName("king");
+		service.updateStudent(student);
+		assertEquals("king", service.getStudent(0).getName());
+	}
+	@Test
+	public void testAddStudent() {
+		Student student = new Student("Gavaskar", 3);
+		service.addStudent(student);
+		assertEquals(3, service.getAllStudents().size());
+	}
+	@Test
+	public void testDeleteStudent() {
+		service.deleteStudent(0);
+		assertNull(service.getStudent(0));
+	}
+}

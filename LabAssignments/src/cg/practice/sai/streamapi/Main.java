@@ -1,0 +1,33 @@
+package cg.practice.sai.streamapi;
+import java.util.*;
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int[]array=new int[7];
+		for(int i=0;i<7;i++) {
+			array[i]=sc.nextInt();
+		}
+		int[]last=moveZeroes(array);
+		
+		for(int i=0;i<last.length;i++) {
+			System.out.println(last[i]);
+		}
+	}
+
+	public static int[] moveZeroes(int[] nums) {
+		int i = 0;
+		int j = 0;
+		for (j = 0; j < nums.length; j++) {
+			if (nums[j] != 0) {
+				nums[i++] = nums[j];
+			}
+
+		}
+		while (i < nums.length) {
+			nums[i++] = 0;
+		}
+		return nums;
+	}
+
+}

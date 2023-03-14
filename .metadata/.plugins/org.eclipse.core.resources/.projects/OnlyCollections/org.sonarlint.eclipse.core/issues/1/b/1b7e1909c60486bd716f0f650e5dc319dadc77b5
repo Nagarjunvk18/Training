@@ -1,0 +1,22 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(°¯ÿÁüÿÿÿÿ8çõ€îÕ0HÚRMAJORZ
+CODE_SMELL
+q
+java:S1612">Replace this lambda with method reference 'System.out::print'.(ÿà˜­8çõ€îÕ0HÛRMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(¹œı8ı¦­ëÕ0HİRMAJORZ
+CODE_SMELL
+g
+java:S1128"4Remove this unused import 'java.util.stream.Stream'.(ó÷”8çõ€îÕ0HŞRMINORZ
+CODE_SMELL
+_
+java:S1602",Remove useless curly braces around statement(ÿà˜­8çõ€îÕ0HàRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(âã¶¶ıÿÿÿÿ8ı¦­ëÕ0HáRMAJORZ
+CODE_SMELL
+i
+java:S1135
+"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8ı¦­ëÕ0HâRINFOZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.( ç®8ı¦­ëÕ0HãRMAJORZ
+CODE_SMELL

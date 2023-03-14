@@ -1,0 +1,30 @@
+
+n	java:S125"<This block of commented-out lines of code should be removed.(õîß8Õàî¹Õ0HÅRMAJORZ
+CODE_SMELL
+m	java:S125"<This block of commented-out lines of code should be removed.(Ä«Ä78Ã§»¹Õ0HÆRMAJORZ
+CODE_SMELL
+n
+java:S1854"6Remove this useless assignment to local variable "s2".(£¥‰Îÿÿÿÿÿ8Õàî¹Õ0HÇRMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(‘Ô¶Œúÿÿÿÿ8¯„è¹Õ0HÈRMAJORZ
+CODE_SMELL
+b
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÉRINFOZ
+CODE_SMELL
+_
+java:S1481"'Remove this unused "s2" local variable.(£¥‰Îÿÿÿÿÿ8Õàî¹Õ0HÊRMINORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(ÜÄ™g8Ã§»¹Õ0HÌRMAJORZ
+CODE_SMELL
+m
+java:S1161":Add the "@Override" annotation above this method signature(è§©¯8¯„è¹Õ0HÍRMAJORZ
+CODE_SMELL
+j
+java:S1854 "7Remove this useless assignment to local variable "msg".(êê×ë8¾ş£ßÕ0HÏRMAJORZ
+CODE_SMELL
+[
+java:S1481 "(Remove this unused "msg" local variable.(êê×ë8¾ş£ßÕ0HĞRMINORZ
+CODE_SMELL
+g
+java:S1128"4Remove this unused import 'java.util.stream.Stream'.(ó÷”8¾ş£ßÕ0HÒRMINORZ
+CODE_SMELL

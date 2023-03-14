@@ -1,0 +1,63 @@
+package com.studentmng.dao;
+
+import static org.junit.Assert.assertEquals;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.Mock;
+//import org.mockito.junit.MockitoJUnitRunner;
+
+import com.studentmng.model.Student;
+
+//@RunWith(MockitoJUnitRunner.class)
+public class StudentDaoTest {
+    @Mock
+    private StudentDao studentDao;
+
+    @Test
+    public void testGetAllStudents() {
+        when(studentDao.getAllStudents()).thenReturn(
+            Arrays.asList(new Student("Nag", 0), new Student("Arjun", 1))
+        );
+
+        List<Student> students = studentDao.getAllStudents();
+        assertEquals(2, students.size());
+        assertEquals("Nag", students.get(0).getName());
+        assertEquals(1, students.get(1).getRollNo());
+    }
+
+    @Test
+    public void testGetStudent() {
+        when(studentDao.getStudent(0)).thenReturn(new Student("Nag", 0));
+
+        Student student = studentDao.getStudent(0);
+        assertEquals("Nag", student.getName());
+        assertEquals(0, student.getRollNo());
+    }
+
+    @Test
+    public void testUpdateStudent() {
+        Student student = new Student("Arjun", 0);
+        studentDao.updateStudent(student);
+        verify(studentDao).updateStudent(student);
+    }
+
+    @Test
+    public void testAddStudent() {
+        Student student = new Student("Nag", 0);
+        studentDao.addStudent(student);
+        verify(studentDao).addStudent(student);
+    }
+
+    @Test
+    public void testDeleteStudent() {
+        studentDao.deleteStudent(0);
+        verify(studentDao).deleteStudent(0);
+    }
+}
+

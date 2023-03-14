@@ -1,0 +1,28 @@
+
+ƒ	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ÌˆæH™RMINORZ
+CODE_SMELL
+M
+java:S1643"Use a StringBuilder instead.(¿Ø–ûÿÿÿÿHœRMINORZ
+CODE_SMELL
+H
+java:S1643%"Use a StringBuilder instead.(İîãŞHRMINORZ
+CODE_SMELL
+b
+java:S1135	"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHRINFOZ
+CODE_SMELL
+j
+java:S1854!"9Remove this useless assignment to local variable "count".(ëæûÿÿÿÿÿHŸRMAJORZ
+CODE_SMELL
+[
+java:S1481"*Remove this unused "total" local variable.(óË üÿÿÿÿH RMINORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(ÏÚ˜ÿÿÿÿÿH¢RMAJORZ
+CODE_SMELL
+d	java:S106*"9Replace this use of System.out or System.err by a logger.(”¢ÚßH£RMAJORZ
+CODE_SMELL
+Y
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êXH¤RMINORZ
+CODE_SMELL
+[
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿH¦RMINORZ
+CODE_SMELL

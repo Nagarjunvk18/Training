@@ -1,0 +1,9 @@
+com\studentmng\main\DaoPatternDemo.class
+com\studentmng\service\StudentServiceImpl.class
+com\studentmng\dao\StudentDao.class
+com\studentmng\service\StudentService.class
+com\studentmng\model\StudenAddressDTO.class
+com\studentmng\model\Student.class
+com\studentmng\dao\StudentDaoImpl.class
+com\studentmng\model\Address.class
+com\studentmng\model\Play.class

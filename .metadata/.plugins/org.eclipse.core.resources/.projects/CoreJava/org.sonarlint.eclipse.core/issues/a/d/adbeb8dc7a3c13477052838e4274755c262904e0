@@ -1,0 +1,10 @@
+
+c	java:S106"9Replace this use of System.out or System.err by a logger.(âğLHşRMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ûººìHÿRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(¾Ä–éüÿÿÿÿH€RMAJORZ
+CODE_SMELL
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ŸôªÂHRCRITICALZ
+CODE_SMELL

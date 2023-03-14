@@ -1,0 +1,17 @@
+package com.cg.java8.lambda;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ProgramOne {
+
+	public static void main(String[] args) {
+		List<String>names=new ArrayList<>();
+		names.add("nagarjuna");
+		names.add("kiran");
+		names.add("nirup");
+		names.add("kurup");
+		
+	}
+
+}

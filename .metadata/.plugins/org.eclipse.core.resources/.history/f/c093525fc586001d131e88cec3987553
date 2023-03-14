@@ -1,0 +1,56 @@
+package com.studentmng.dao;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.List;
+
+import org.junit.Test;
+
+import com.studentmng.model.Student;
+
+public class StudentDaoImplTest {
+	@Test
+	public void testGetAllStudents() {
+		StudentDaoImpl studentDao = new StudentDaoImpl();
+		List<Student> students = studentDao.getAllStudents();
+		assertEquals(2, students.size());
+		assertEquals("Robert", students.get(0).getName());
+		assertEquals(1, students.get(1).getRollNo());
+	}
+
+	@Test
+	public void testGetStudent() {
+		StudentDaoImpl studentDao = new StudentDaoImpl();
+		Student student = studentDao.getStudent(0);
+		assertEquals("Robert", student.getName());
+		assertEquals(0, student.getRollNo());
+	}
+
+	@Test
+	public void testUpdateStudent() {
+		StudentDaoImpl studentDao = new StudentDaoImpl();
+		Student student = new Student("John", 0);
+		studentDao.updateStudent(student);
+	}
+
+	@Test
+	public void testAddStudent() {
+		StudentDaoImpl studentDao = new StudentDaoImpl();
+		Student student = new Student("Robert", 0);
+		studentDao.addStudent(student);
+		List<Student> students = studentDao.getAllStudents();
+		assertEquals(3, students.size());
+		assertEquals("Robert", students.get(2).getName());
+		assertEquals(0, students.get(2).getRollNo());
+	}
+
+	@Test
+	public void testDeleteStudent() {
+		StudentDaoImpl studentDao = new StudentDaoImpl();
+		studentDao.deleteStudent(0);
+		List<Student> students = studentDao.getAllStudents();
+		assertEquals(1, students.size());
+		assertEquals("John", students.get(0).getName());
+		assertEquals(1, students.get(0).getRollNo());
+	}
+}

@@ -1,0 +1,43 @@
+package com.studentmng.model;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Before;
+
+public class StudentTest {
+
+	private Student student;
+
+	@Before
+	public void setUp() {
+		student = new Student("Virat Kohli", 1);
+	}
+
+	@Test
+	public void testGetName() {
+
+		assertEquals("Virat Kohli", student.getName());
+	}
+
+	@Test
+	public void testSetName() {
+
+		student.setName("Dhoni");
+		assertEquals("Dhoni", student.getName());
+	}
+
+	@Test
+	public void testGetRollNo() {
+
+		assertEquals(1, student.getRollNo());
+	}
+
+	@Test
+	public void testSetRollNo() {
+
+		student.setRollNo(2);
+		assertEquals(2, student.getRollNo());
+	}
+
+}

@@ -1,0 +1,15 @@
+
+¨
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ùÕÒÓøÿÿÿÿ8‹ñÍ¿Õ0HíRMINORZ
+CODE_SMELL
+d
+java:S1481!",Remove this unused "empList" local variable.(³Ëú—üÿÿÿÿ8«Òâ¿Õ0HõRMINORZ
+CODE_SMELL
+s
+java:S1854!";Remove this useless assignment to local variable "empList".(³Ëú—üÿÿÿÿ8«Òâ¿Õ0HôRMAJORZ
+CODE_SMELL
+k	java:S106)"9Replace this use of System.out or System.err by a logger.(þ­¢ÿ8¶äå¿Õ0HúRMAJORZ
+CODE_SMELL
+O
+java:S1116)"Remove this empty statement.(þ­¢ÿ8¶äå¿Õ0HûRMINORZ
+CODE_SMELL

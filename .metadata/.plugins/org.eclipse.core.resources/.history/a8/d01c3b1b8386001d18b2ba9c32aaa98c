@@ -1,0 +1,29 @@
+package com.aricent.parkingsystem.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.aricent.parkingsystem.ParkingServiceImpl;
+/**
+ * Test Class containing two basic test cases.
+ * @author GUR40073
+ *
+ */
+public class ParkingServiceImplTest {
+	/*
+	 * Test Case to be annotated with @Test annotation
+	 */
+	@Test
+	public void testParkingSpaceAvailable() {
+		ParkingServiceImpl service = new ParkingServiceImpl();
+		
+		//assert method to check for assumption about the expected outcome and actual outcome
+		assertEquals(service.getTotalParkingSpace(),10);
+	}
+	@Test
+	public void testCarsParked() {
+		ParkingServiceImpl service = new ParkingServiceImpl();
+		assertEquals(service.getTotalCarsParked(),0);
+	}
+}

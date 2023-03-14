@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;doselect.trying.WrestleImplementation.java&apos; to &apos;WrestlerImplementation.java&apos;&#x0D;&#x0A;- Original project: &apos;CoreJava&apos;&#x0D;&#x0A;- Original element: &apos;doselect.trying.WrestleImplementation.java&apos;&#x0D;&#x0A;- Renamed element: &apos;doselect.trying.WrestlerImplementation.java&apos;" description="Rename compilation unit &apos;WrestleImplementation.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;doselect.trying{WrestleImplementation.java" name="WrestlerImplementation.java" references="false" stamp="1671712994091" version="1.0"/>
+</session>

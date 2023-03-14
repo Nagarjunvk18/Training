@@ -1,0 +1,32 @@
+package com.studentmng.model;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+
+public class StudentTest {
+  @Test
+  public void testGetName() {
+    Student student = new Student("John", 1);
+    assertEquals("John", student.getName());
+  }
+
+  @Test
+  public void testSetName() {
+    Student student = new Student("John", 1);
+    student.setName("Jane");
+    assertEquals("Jane", student.getName());
+  }
+
+  @Test
+  public void testGetRollNo() {
+    Student student = new Student("John", 1);
+    assertEquals(1, student.getRollNo());
+  }
+
+  @Test
+  public void testSetRollNo() {
+    Student student = new Student("John", 1);
+    student.setRollNo(2);
+    assertEquals(2, student.getRollNo());
+  }
+}

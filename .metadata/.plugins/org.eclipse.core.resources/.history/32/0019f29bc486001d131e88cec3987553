@@ -1,0 +1,14 @@
+package com.studentmng.dao;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class StudentDaoTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

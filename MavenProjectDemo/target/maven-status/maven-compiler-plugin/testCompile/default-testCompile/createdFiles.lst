@@ -1,0 +1,3 @@
+com\studentmng\service\StudentServiceImplTest.class
+com\studentmng\dao\StudentDaoTest.class
+com\studentmng\model\StudentTest.class

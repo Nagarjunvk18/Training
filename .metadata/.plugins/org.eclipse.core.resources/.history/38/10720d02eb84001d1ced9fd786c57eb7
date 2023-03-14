@@ -1,0 +1,12 @@
+package com.cg.java8.lambda;
+interface FunctionalTwo{
+	void show(int a,int b);
+}
+public class ProgramTwo {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

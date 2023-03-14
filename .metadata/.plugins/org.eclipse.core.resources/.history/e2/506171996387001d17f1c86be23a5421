@@ -1,0 +1,22 @@
+package com.cg.collections.comparable;
+
+class MyThread implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("run");
+	}
+
+}
+
+public class Test {
+	public static void main(String[] args) {
+		MyThread obj = new MyThread();
+		Thread t = new Thread(obj);
+		System.out.println("1st"+t.isAlive());
+		t.start();
+		System.out.println(t.isAlive());
+		
+	}
+}

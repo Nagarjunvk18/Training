@@ -1,0 +1,46 @@
+package com.aricent.parkingsystem;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ParkingServiceImpl {
+
+	private int totalParkingSpace;
+	private int totalCarsParked;
+	private List<Car> carList;
+	
+	public ParkingServiceImpl(){
+		carList = new ArrayList<Car>();
+		totalParkingSpace = 10;	
+	}
+	public void parkCar(Car c) throws SpaceUnAvailableException{
+		if(totalParkingSpace==0)
+			throw new SpaceUnAvailableException("Parking Space Not Available");
+		else{
+			carList.add(c);
+			totalCarsParked++;
+			totalParkingSpace--;
+			
+		}
+	}
+	public void exitCar(Car c){
+		carList.remove(c);
+		totalCarsParked--;
+		++totalParkingSpace;	
+	}
+	public int getTotalParkingSpace() {
+		return totalParkingSpace;
+	}
+	public int getTotalCarsParked() {
+		return totalCarsParked;
+	}
+	public void setTotalParkingSpace(int totalParkingSpace) {
+		this.totalParkingSpace = totalParkingSpace;
+	}
+	public void setTotalCarsParked(int totalCarsParked) {
+		this.totalCarsParked = totalCarsParked;
+	}
+	public List<Car> getCarList() {
+		return carList;
+	}
+}

@@ -1,0 +1,24 @@
+package com.cg.jdbc.practice;
+
+import java.sql.*;
+
+public class ResultSetDemo {
+	static Connection con;con=MakeConnection.getConnection();
+
+	public static void getData() throws SQLException {
+		Statement stmt;
+		stmt = con.createStatement();
+		String query = "select * from stateslist";
+		ResultSet rst = stmt.executeQuery(query);
+		while (rst.next()) {
+			System.out.println("sNo: " + rst.getInt(1));
+			System.out.println("State: " + rst.getString(2));
+			System.out.println("Capital: " + rst.getString(3));
+		}
+	}
+
+	public static boolean updateTheData(String capital) {
+		stmt=con.createStatement();
+		String 
+	}
+}

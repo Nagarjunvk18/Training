@@ -1,0 +1,33 @@
+package cg.sai.solutions;
+
+import java.sql.*;
+
+public class GetConnection {
+
+	public static void main(String[] args) {
+		Connection conn = null;
+		Statement stmt = null;
+		try {
+			// STEP 2: Register JDBC driver
+			Class.forName("com.mysql.jdbc.Driver");
+			// STEP 3: Open a connection
+			System.out.println("Connecting to database...");
+			conn = DriverManager.getConnection(DB_URL, USER, PASS);
+			// STEP 4: Execute a query
+			System.out.println("Creating statement...");
+			stmt = conn.createStatement();
+			String sql;
+			sql = "SELECT id, first, last, age FROM Employees";
+			ResultSet rs = stmt.executeQuery(sql);
+			// STEP 5: Extract data from result set
+			while (rs.next()) {
+				// Retrieve by column name
+				int id = rs.getInt("id");
+				int age = rs.getInt("age");
+				String first = rs.getString("first");
+			}
+		} catch (Exception e) {
+
+		}
+	}
+}

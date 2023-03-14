@@ -1,0 +1,43 @@
+
+o
+java:S1854#"7Remove this useless assignment to local variable "num".(¡´’šùÿÿÿÿ8ÛÞ¿ÁÕ0HêRMAJORZ
+CODE_SMELL
+i
+java:S11358"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ8ÛÞ¿ÁÕ0HëRINFOZ
+CODE_SMELL
+p	java:S106>"9Replace this use of System.out or System.err by a logger.(‡Šèõùÿÿÿÿ8ÛÞ¿ÁÕ0HìRMAJORZ
+CODE_SMELL
+g
+java:S1128"4Remove this unused import 'java.util.regex.Matcher'.(ëÅ›ã8ÛÞ¿ÁÕ0HíRMINORZ
+CODE_SMELL
+ˆ	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³àÖ­ÿÿÿÿÿ8ÛÞ¿ÁÕ0HïRMINORZ
+CODE_SMELL
+^
+java:S1481""+Remove this unused "mobnum" local variable.(°Š»æ8ÛÞ¿ÁÕ0HðRMINORZ
+CODE_SMELL
+o
+java:S6353$"<Use concise character class syntax '\\d' instead of '[0-9]'.(­¢Æï8ÛÞ¿ÁÕ0HòRMINORZ
+CODE_SMELL
+„	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ë‚ç÷ýÿÿÿÿ8ÛÞ¿ÁÕ0HóRMINORZ
+CODE_SMELL
+m
+java:S1854"":Remove this useless assignment to local variable "mobnum".(°Š»æ8ÛÞ¿ÁÕ0HôRMAJORZ
+CODE_SMELL
+{
+java:S21666"CRename this class to remove "Exception" or correct its inheritance.(¹Îý­ùÿÿÿÿ8ÛÞ¿ÁÕ0HõRMAJORZ
+CODE_SMELL
+}	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(šî¦†üÿÿÿÿ8ÛÞ¿ÁÕ0HöRMAJORZ
+CODE_SMELL
+w	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(—Ó¼z8ÛÞ¿ÁÕ0H÷RMAJORZ
+CODE_SMELL
+p	java:S106="9Replace this use of System.out or System.err by a logger.(„ÌÄ‡ûÿÿÿÿ8ÛÞ¿ÁÕ0HøRMAJORZ
+CODE_SMELL
+l
+java:S1128"4Remove this unused import 'java.util.regex.Pattern'.(Ã•…Äúÿÿÿÿ8ÛÞ¿ÁÕ0HùRMINORZ
+CODE_SMELL
+`
+java:S1481#"(Remove this unused "num" local variable.(¡´’šùÿÿÿÿ8ÛÞ¿ÁÕ0HûRMINORZ
+CODE_SMELL
+s
+java:S2094C"BRemove this empty class, write its code or make it an "interface".(íÞÙ—ùÿÿÿÿHýRMINORZ
+CODE_SMELL

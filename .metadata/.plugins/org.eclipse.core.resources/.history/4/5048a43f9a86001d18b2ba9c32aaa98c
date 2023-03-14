@@ -1,0 +1,39 @@
+package com.studentmng.model;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class StudentTest {
+
+	@Test
+	void testStudent() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetName() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSetName() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetRollNo() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSetRollNo() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testToString() {
+		fail("Not yet implemented");
+	}
+
+}
